@@ -81,10 +81,7 @@ function  mostrarImagenes(imagenes){
         resultado.removeChild(resultado.firstChild);
     }
 
-    if(imagenes.length==0){
-        mostrarAlerta('No se encontro ninguna imagen');
-    }
-  
+   
 
     imagenes.forEach(imagen => {
     
