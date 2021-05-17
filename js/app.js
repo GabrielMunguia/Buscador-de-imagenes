@@ -22,6 +22,7 @@ function validadFormulario (e){
 }
 
 function mostrarAlerta(mensaje){
+
     const existeAlerta= document.querySelector('.bg-red-100');
     if(!existeAlerta){
         const alerta=document.createElement('p');
